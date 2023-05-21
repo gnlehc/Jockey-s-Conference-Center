@@ -1,0 +1,296 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/assets/EventPageBackground.png);
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  left: 0;
+  position: absolute;
+  top: 0;
+  padding: 2rem;
+  margin-left: 4rem;
+  color: whitesmoke;
+  font-weight: lighter;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.navigation a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-bottom: 2px;
+}
+
+.navigation b:hover {
+  color: #f7c873;
+}
+.logo {
+  padding: 2rem;
+}
+.logo img {
+  width: 4.8rem;
+  position: absolute;
+  margin-left: 90%;
+}
+
+.title {
+  color: whitesmoke;
+  font-size: 4.4rem;
+  position: absolute;
+  right: 8rem;
+  top: 4rem;
+}
+.titles {
+  color: transparent;
+  font-weight: 600;
+  -webkit-text-stroke: 1px whitesmoke;
+}
+.info {
+  text-align: justify;
+  color: whitesmoke;
+  width: 70%;
+  position: relative;
+  margin-top: 10rem;
+  margin-left: 10rem;
+}
+
+.border {
+  margin-top: 10rem;
+  margin-left: 34rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36rem;
+  height: 24rem;
+  border: 1px solid whitesmoke;
+  position: relative;
+  border-radius: 1vh;
+}
+
+.border img {
+  max-width: 100%;
+  max-height: 96%;
+}
+
+.card {
+  position: relative;
+  background-color: whitesmoke;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.4rem;
+  margin: -8rem 12rem auto auto;
+}
+.card-border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36vh;
+  height: 40vh;
+  border: 1px solid black;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-content .date {
+  margin-right: 1vh;
+  margin-top: 0.6vh;
+  margin-left: auto;
+  text-align: right;
+  font-size: smaller;
+}
+.card-content .date sup {
+  position: static;
+}
+.card .card-content h2 {
+  margin-top: 1vh;
+  width: 20%;
+  margin-left: 1vh;
+}
+.card-content p {
+  margin-left: 1vh;
+  font-size: smaller;
+  width: 90%;
+  text-align: justify;
+  margin-top: 1vh;
+}
+.card1 {
+  position: relative;
+  background-color: whitesmoke;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.4rem;
+  margin: -28rem auto auto 6rem;
+}
+.card1 h2 {
+  width: 70%;
+  margin-top: 1vh;
+  margin-left: 1vh;
+}
+.border1 {
+  bottom: 6rem;
+  margin-left: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36rem;
+  height: 24rem;
+  border: 1px solid whitesmoke;
+  position: relative;
+  border-radius: 1vh;
+}
+
+.border1 img {
+  max-width: 96%;
+  max-height: 96%;
+}
+
+.border2 {
+  top: 8rem;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36rem;
+  height: 24rem;
+  border: 1px solid whitesmoke;
+  position: relative;
+  border-radius: 1vh;
+}
+
+.border2 img {
+  max-width: 96%;
+  max-height: 96%;
+}
+
+.card2 {
+  position: relative;
+  background-color: whitesmoke;
+  width: 18rem;
+  height: 20rem;
+  border-radius: 0.4rem;
+  margin: -30rem 8rem auto auto;
+}
+.card2 h2 {
+  width: 70%;
+  margin-top: 1vh;
+  margin-left: 1vh;
+}
+
+.button {
+  cursor: pointer;
+  left: 60rem;
+  margin-top: 26rem;
+  margin-bottom: 10rem;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 2rem;
+  width: 22rem;
+  padding: 2vh 8vh 2vh 6vh;
+  position: relative;
+}
+.button a {
+  text-align: left;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.button a:hover,
+.button a:active,
+.button a:focus {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.arrows {
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin: -12.8rem auto 10rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 9rem;
+}
+
+.arrow {
+  margin-bottom: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  font-size: 2.4rem;
+  font-weight: lighter;
+}
+
+/* footer */
+.footer {
+  margin-top: 8rem;
+}
+.foot {
+  position: absolute;
+  margin-left: 6rem;
+  color: whitesmoke;
+}
+.foot h1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  position: absolute;
+  color: whitesmoke;
+  right: 14rem;
+  margin-top: 5rem;
+}
+.contact h1 {
+  margin-bottom: 1rem;
+}
+
+.ig {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 4px 8px 8px 4px;
+}
+
+.email {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 4px 8px 8px 4px;
+}
+.telephone {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  padding: 4px 8px 8px 4px;
+}
+.partner {
+  color: whitesmoke;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.partner h1 {
+  margin-top: 24rem;
+}
+.partner img {
+  cursor: pointer;
+  width: 8rem;
+  vertical-align: middle;
+  margin-right: 10px;
+}
