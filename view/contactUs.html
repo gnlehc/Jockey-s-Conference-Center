@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jockey's Conference Center</title>
+    <link rel="stylesheet" href="/style/contactUs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="/assets/LOGO.png" />
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/formValidation.js" defer></script>
+  </head>
+  <body>
+    <div class="headers">
+      <div class="container">
+        <section class="header">
+          <nav>
+            <!-- <img src="/assets/logo not circle white.png" alt="" /> -->
+            <div class="nav-menu">
+              <i class="fa fa-times" id="fatimes"></i> 
+              <div class="navbar">
+                <ul>
+                  <li><a id="home" href="homePage.html">Home</a></li>
+                  <li><a href="event.html" id="event">Event</a></li>
+                  <li>
+                    <a href="price.html" id="price">Price List</a>
+                  </li>
+                  <li><a href="aboutUs.html" id="aboutus">About Us</a></li>
+                  <li><a href="contactUs.html" id="ctc-us">Contact Us</a></li>
+                  <div class="cursor"></div>
+                </ul>
+              </div>
+            </div>
+            <i id="hamburger" class="fa fa-bars"></i>
+          </nav>
+        </section>
+      </div>
+    </div>
+    <div class="ctcus">
+      <div class="title">
+        <div class="contact-us">
+          <div class="titles">
+            <h1>Contact Us</h1>
+          </div>
+          <p>
+            Please provide your personal information. Our dedicated team is here
+            to assist you and provide the information you need.
+          </p>
+        </div>
+        <div class="info-container">
+          <div class="info">
+            <div class="address">
+              <h2>Address</h2>
+            </div>
+            <div class="content-long">
+              <p>
+                Jl. Gatot Subroto No.1, RT.1/RW.3, Gelora, Kecamatan Tanah
+                Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="db-stack">
+          <div class="double-stack">
+            <div class="info">
+              <div class="ophour">
+                <h2>Opening Hours</h2>
+              </div>
+              <div class="content">
+                <p>Monday - Sunday</p>
+                <p>07:00 - 22:00</p>
+              </div>
+            </div>
+            <div class="info">
+              <div class="support">
+                <h2>Support</h2>
+              </div>
+              <div class="content">
+                <p>JCC.1974@Gmail.com</p>
+                <p>+62816472012</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="more">
+        <p>
+          Please provide your personal information. Our dedicated team is here
+          to assist you and provide the information you need.
+        </p>
+      </div> -->
+    </div>
+    <div class="form-container">
+      <div class="form">
+        <h2>Get in Touch</h2>
+        <form id="form-field">
+          <label for="error" id="error"></label>
+          <div class="input-box">
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              class="input-field"
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              class="input-field"
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="tel"
+              id="TLP"
+              placeholder="Telephone Number"
+              class="input-field"
+            />
+          </div>
+          <div class="input-box">
+            <select id="preferred">
+              <option id="value" value="email">Email</option>
+              <option id="value" value="telephone">Telephone Number</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <textarea
+              id="message"
+              placeholder="Write Your Message Here..."
+            ></textarea>
+          </div>
+          <div class="sub">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -17,47 +17,46 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="icon" href="/assets/LOGO.png" />
+    <script src="/scripts/main.js" defer></script>
   </head>
   <body>
     <div class="eventpage">
       <div class="event-container">
-        <div class="navigation">
-          <a href="/view/landing.html" class="home">
-            <b>Home</b>
-          </a>
-          <a
-            href="/view/event.html"
-            class="event"
-            style="text-decoration: underline; min-height: 1rem; color: #ffb32b"
-            ><b>Event</b></a
-          >
-          <a class="price" style="min-height: 1rem">
-            <b>Price List</b>
-          </a>
-          <a href="/view/aboutUs.html" class="aboutus" style="min-height: 1rem">
-            <b>About Us</b>
-          </a>
+        <section class="header">
+          <nav>
+            <img src="/assets/logo not circle white.png" alt="" />
+            <div class="nav-menu">
+              <i class="fa fa-times"></i>
+              <div class="navbar">
+                <ul>
+                  <li><a id="home" href="homePage.html">Home</a></li>
+                  <li><a href="event.html" id="event">Event</a></li>
+                  <li>
+                    <a href="price.html">Price List</a>
+                  </li>
+                  <li><a href="aboutUs.html">About Us</a></li>
+                  <li><a href="contactUs.html">Contact Us</a></li>
+                  <div class="cursor"></div>
+                </ul>
+              </div>
+            </div>
+            <i id="hamburger" class="fa fa-bars"></i>
+          </nav>
+        </section>
+
+        <div class="title-container">
+          <div class="title">
+            <div class="dec">
+              <p class="discover"><i>Discover</i></p>
+              <p class="create"><i>Create</i></p>
+            </div>
+            <p class="titles">
+              Seek out <img class="img" src="/assets/eventjcctipo.png" alt="" />
+            </p>
+            <p class="titlesL">Latest Events</p>
+          </div>
         </div>
-        <div class="logo">
-          <img src="/assets/logo not circle white.png" alt="" />
-        </div>
-        <div class="title">
-          <p class="titles">JCC's Events</p>
-        </div>
-        <div class="info">
-          <p>
-            Discover the extraordinary at JCC Center! Step into a world of
-            endless possibilities, where innovation, collaboration, and
-            inspiration converge. From captivating conferences and exhibitions
-            to exhilarating performances, JCC Center offers an unparalleled
-            experience that will ignite your passion and propel you towards
-            success. Immerse yourself in a dynamic environment, connect with
-            industry leaders, expand your network, and unlock new opportunities.
-            With state-of-the-art facilities and a reputation for excellence,
-            JCC Center is the ultimate destination for those who dare to dream
-            big.
-          </p>
-        </div>
+
         <div class="event-list">
           <div class="border">
             <img src="/assets/events/asia economic conference.png" alt="" />
@@ -112,15 +111,20 @@
             </div>
           </div>
           <div class="click">
-            <div class="button">
-              <a href="/view/price.html">Get Your Ticket Now</a>
-            </div>
-            <div class="arrows">
-              <span class="arrow">&#8594;</span>
+            <div class="button-container">
+              <div class="button">
+                <a class="redirect" href="/view/price.html">Book Venue</a>
+                <div class="arrow-container">
+                  <div class="arrows">
+                    <span class="arrow">&#8594;</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="footer">
         <div class="divider">
           <hr />
@@ -129,33 +133,42 @@
           <h1>Jockey's Conference Center</h1>
           <img src="/assets/LOGO.png" alt="" />
         </div>
-        <div class="contact">
-          <h1>Contact Us</h1>
-          <div class="ig">
-            <i
-              class="fa fa-instagram fa-2x"
-              style="padding-right: 0.8rem"
-              aria-hidden="true"
-            ></i>
-            <span>@JCC.1974</span>
-          </div>
-          <div class="email">
-            <i
-              class="fa fa-envelope fa-2x"
-              style="padding-right: 0.8rem"
-              aria-hidden="true"
-            ></i>
-            <span>JCC.1974@Gmail.com</span>
-          </div>
-          <div class="telephone">
-            <i
-              class="fa fa-phone fa-2x"
-              style="padding-right: 0.8rem"
-              aria-hidden="true"
-            ></i>
-            <span>+628164472012</span>
+        <div class="ctc">
+          <div class="contact">
+            <h1>Contact Us</h1>
+            <div class="contact-box">
+              <div class="ig">
+                <i
+                  class="fa fa-instagram fa-2x"
+                  style="padding-right: 0.8rem"
+                  aria-hidden="true"
+                ></i>
+                <span>@JCC.1974</span>
+              </div>
+            </div>
+            <div class="contact-box">
+              <div class="email">
+                <i
+                  class="fa fa-envelope fa-2x"
+                  style="padding-right: 0.8rem"
+                  aria-hidden="true"
+                ></i>
+                <span>JCC.1974@Gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-box">
+              <div class="telephone">
+                <i
+                  class="fa fa-phone fa-2x"
+                  style="padding-right: 0.8rem"
+                  aria-hidden="true"
+                ></i>
+                <span>+628164472012</span>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="partner">
           <h1>Powered By</h1>
           <img src="/assets/partner/Sea Bank Logo 1.png" alt="" />
